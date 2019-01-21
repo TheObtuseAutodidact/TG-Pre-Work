@@ -2,7 +2,12 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions.
 
-put your answer here
+The request response cycle - simplified:
+1) The Browser sends a request to the host or server and waits for a response.
+2) The server receives the request and parses headers for methods/actions
+3) For static requests, server locates static assests and sends. For dynamic requests, server responds to method/action and sends relevant response. Followed by (if successful) a 200 status code.
+4) Browser received response and executes/renders relevant content.
+
 
 ## From start to finish how does that data reach you to be rendered in the browser?
 
