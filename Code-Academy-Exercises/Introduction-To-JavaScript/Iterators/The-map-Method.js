@@ -14,4 +14,4 @@ const smallNumbers = bigNumbers.map(num => {
   return num / 100
 })
 
-// intro to the map() method
+// Intro to the map() method
